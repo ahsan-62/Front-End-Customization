@@ -14,14 +14,35 @@ h1{
         border: 2px solid black;
         border-radius: 10px;
         margin: 10px;
-        padding: 10px;
+        padding: 10px;                                y/*Inner shape*/
         background-color: aquamarine;
         width: 30%;
         display: inline-block;
 
 
     }
-    h1{
+    .heading{
 
         text-align: center;
+    }
+
+
+    .effect:hover{
+            font-size: 50px;
+            font-weight: bold;
+            color: red;
+    }
+
+
+    input:focus{
+
+        font-size: 20px;
+        color: red;
+        font-weight: bold;
+        border: 5px solid red;
+    }
+
+    li:nth-child(2n){
+        color: white;
+        background-color: green;
     }
